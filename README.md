@@ -40,7 +40,7 @@ f78366c2cbed009e1febc060b832dbe4	Mozilla/5.0 (Linux; Android 4.4.2; T1-701u Buil
 | seg_windows   | parsed_ua['os']['family'] like '%Windows%'          |
 
 
-Оцените кол-во уникальных пользователей в каждом сегменте используя алгоритм ![ссылка](https://github.com/svpcom/hyperloglog) (поставьте <span style="background-color: lightgray;">error_rate</span> равным 1%). 
+Оцените кол-во уникальных пользователей в каждом сегменте используя алгоритм [HyperLogLog](https://github.com/svpcom/hyperloglog) (поставьте <span style="background-color: lightgray;">error_rate</span> равным 1%). 
 В результате выведите сегменты и количества пользователей в следующем формате: <span style="background-color: lightgray;">segment_name <tab> count</span>. Отсортируйте результат по количеству пользователей в порядке убывания.
 
 #### Код для генерации батчей
